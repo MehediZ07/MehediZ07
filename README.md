@@ -59,31 +59,11 @@
 
 ###
 
-## GitHub Stats  
+## 🚀 GitHub Stats
 
-![MehediZ07's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MehediZ07&show_icons=true&theme=radical)  
+![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=MehediZ07&show_icons=true&theme=tokyonight)
 
-## Languages Used  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=radical)  
-
-## Contribution Streak  
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MehediZ07&theme=tokyo-night)
-
-
-
-## 📊 GitHub Stats  
-
-![MehediZ07's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MehediZ07&show_icons=true&theme=radical)  
-
-## 🔥 Contribution Streak  
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MehediZ07&theme=radical)  
-
-## 🎯 Most Used Languages  
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=radical)  
-
-
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MehediZ07&theme=tokyonight)
 
