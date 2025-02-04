@@ -69,7 +69,8 @@
 
 ## Contribution Streak  
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=MehediZ07&theme=radical)  
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MehediZ07&theme=tokyo-night)
+
 
 
 ## 📊 GitHub Stats  
