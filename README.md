@@ -20,7 +20,7 @@
 
 ###
 
-<p align="left">✨ Creating Userfriendly dynamic Website.<br>📚 I'm currently MongoDB, NextJs.<br>🎯 My goal is to become a professional full stack developer by the end of 2025.<br>🎲 Fun fact: When I work, I work continuously for 13-14 hours, and then I sleep too much.</p>
+<p align="left">✨ Creating Userfriendly dynamic web app<br>📚 I'm currently exploring MongoDB, NextJs.<br>🎯 My goal is to become a professional full stack developer by the end of 2025.<br>🎲 Fun fact: When I work, I work continuously for 13-14 hours, and then I sleep too much.</p>
 
 ###
 
@@ -58,3 +58,12 @@
 </div>
 
 ###
+
+## 🚀 GitHub Stats
+
+![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=MehediZ07&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=tokyonight)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MehediZ07&theme=tokyonight)
+
