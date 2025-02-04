@@ -65,5 +65,6 @@
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=tokyonight)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MehediZ07&theme=tokyonight)
+![GitHub Streak](https://img.shields.io/static/v1?label=GitHub%20Streak&message=Active&color=brightgreen&style=flat-square)
+
 
