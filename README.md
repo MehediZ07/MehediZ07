@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MehediZ07/MehediZ07/refs/heads/main/mehedi_profile.png"  />
+  <img src="https://raw.githubusercontent.com/MehediZ07/MehediZ07/refs/heads/main/git-hub-profile.jpeg"  />
 </div>
 
 <h1 align="center">Hi 👋, I'm Mehedi Zaman</h1>
