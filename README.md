@@ -1,4 +1,6 @@
-<img width="1440" height="3546" alt="image" src="https://github.com/user-attachments/assets/30c5f3eb-1194-42e8-90cd-68602232005b" />
+<div align="center">
+  <img height="360" src="https://raw.githubusercontent.com/MehediZ07/MehediZ07/refs/heads/main/Profile Banner.jpeg"  />
+</div>
 
 <h1 align="center">Hi 👋, I'm Mehedi Zaman</h1>
 <h3 align="center">Full Stack Web Developer · MERN & Next.js Expert · Software Developer at Nexbell.Inc</h3>
