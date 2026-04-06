@@ -1,7 +1,4 @@
-<img width="1440" height="3692" alt="image" src="https://github.com/user-attachments/assets/d68251bf-9ec8-4389-b210-6dec627ef13c" />
-
-
-
+<img width="1440" height="3546" alt="image" src="https://github.com/user-attachments/assets/30c5f3eb-1194-42e8-90cd-68602232005b" />
 
 ## Featured Projects
 
