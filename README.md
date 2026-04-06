@@ -10,7 +10,7 @@
 
 ---
 
-### 🚀 About Me
+###  About Me
 
 - 🔭 Currently shipping **production-grade full-stack apps** with Next.js 16, TypeScript, Tailwind CSS v4, Prisma & PostgreSQL
 - 🌱 Exploring **system design, scalable architecture, and distributed systems** in 2026
@@ -21,7 +21,7 @@
 
 ---
 
-### 🌐 Connect with me
+### Connect with me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/mehediz07" target="_blank">
@@ -40,7 +40,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Frontend**
 
@@ -83,17 +83,12 @@
 
 ---
 
-### 📊 GitHub Stats
+###  GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MehediZ07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
   <img src="https://streak-stats.demolab.com?user=MehediZ07&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MehediZ07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=MehediZ07&theme=tokyonight&hide_border=true" width="48%" />
-</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MehediZ07&theme=tokyonight" width="90%" />
@@ -107,10 +102,6 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MehediZ07&theme=tokyo-night&hide_border=true" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MehediZ07&theme=tokyonight&no-frame=true&row=1&column=6" width="90%" />
 </p>
 
 ---
