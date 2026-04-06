@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehedi Zaman — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --color-text-primary: #1f2328;
+  --color-text-secondary: #656d76;
+  --color-text-tertiary: #9198a1;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f6f8fa;
+  --color-border-secondary: #d0d7de;
+  --color-border-tertiary: #e1e4e8;
+  --border-radius-md: 6px;
+  --border-radius-lg: 10px;
+}
+body { background: var(--color-background-primary); }
+</style>
+</head>
+<body>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.f1{animation:fadeUp .4s ease both}
+.f2{animation:fadeUp .4s .08s ease both}
+.f3{animation:fadeUp .4s .16s ease both}
+.f4{animation:fadeUp .4s .24s ease both}
+.f5{animation:fadeUp .4s .32s ease both}
+.f6{animation:fadeUp .4s .4s ease both}
+.wrap{max-width:860px;margin:0 auto;padding:1.25rem 1rem;font-family:var(--font-sans);color:var(--color-text-primary)}
+.hero{text-align:center;padding:2rem 1.25rem 1.5rem;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);background:var(--color-background-secondary);margin-bottom:1rem;position:relative;overflow:hidden}
+.hero-bar{position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#534AB7,#1D9E75,#EF9F27)}
+.av{width:80px;height:80px;border-radius:50%;background:#534AB7;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:500;color:#EEEDFE;margin:0 auto .85rem;border:2px solid #AFA9EC}
+.name{font-size:20px;font-weight:500;margin-bottom:3px}
+.role{font-size:12.5px;color:var(--color-text-secondary);margin-bottom:3px}
+.loc{font-size:11.5px;color:var(--color-text-tertiary);margin-bottom:.9rem;display:flex;align-items:center;justify-content:center;gap:5px}
+.dot{width:6px;height:6px;border-radius:50%;background:#1D9E75;animation:pulse 2s infinite;flex-shrink:0}
+.badges{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin-bottom:.9rem}
+.badge{font-size:11px;padding:2px 9px;border-radius:999px;border:0.5px solid}
+.bp{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
+.bt{background:#E1F5EE;color:#085041;border-color:#5DCAA5}
+.ba{background:#FAEEDA;color:#633806;border-color:#EF9F27}
+.bc{background:#FAECE7;color:#712B13;border-color:#F0997B}
+.bb{background:#E6F1FB;color:#0C447C;border-color:#85B7EB}
+.socials{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.sb{font-size:11px;padding:4px 11px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);text-decoration:none;background:var(--color-background-primary)}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;margin-bottom:1rem}
+.sbox{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:.85rem;text-align:center;border:0.5px solid var(--color-border-tertiary)}
+.snum{font-size:20px;font-weight:500;margin-bottom:2px}
+.slbl{font-size:10px;color:var(--color-text-secondary)}
+.banner{border-radius:var(--border-radius-md);padding:.75rem 1rem;margin-bottom:1rem;display:flex;align-items:flex-start;gap:9px;font-size:12px;border:0.5px solid}
+.ban-p{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
+.ban-t{background:#E1F5EE;color:#085041;border-color:#5DCAA5}
+.bi{width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;flex-shrink:0;margin-top:1px;color:#EEEDFE}
+.bi-p{background:#534AB7}
+.bi-t{background:#1D9E75}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;margin-bottom:1rem}
+.card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.1rem;background:var(--color-background-primary)}
+.clabel{font-size:10px;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:.7rem}
+.di{display:flex;gap:8px;align-items:flex-start;margin-bottom:7px}
+.di:last-child{margin-bottom:0}
+.diDot{width:5px;height:5px;border-radius:50%;background:#7F77DD;flex-shrink:0;margin-top:6px}
+.dit{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.dit strong{font-weight:500;color:var(--color-text-primary)}
+.sr{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.sr:last-child{border-bottom:none}
+.sl{font-size:11.5px;color:var(--color-text-secondary)}
+.sv{font-size:11.5px;font-weight:500}
+.pill{padding:2px 8px;border-radius:999px;font-size:10px}
+.pg{background:#EAF3DE;color:#27500A}
+.pp{background:#EEEDFE;color:#3C3489}
+.pc{background:#FAECE7;color:#712B13}
+.pt{background:#E1F5EE;color:#085041}
+.sk-sec{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.1rem;background:var(--color-background-primary)}
+.skr{margin-bottom:.8rem}
+.skr:last-child{margin-bottom:0}
+.skh{display:flex;justify-content:space-between;margin-bottom:4px}
+.skn{font-size:11.5px;color:var(--color-text-secondary)}
+.skp{font-size:10.5px;color:var(--color-text-tertiary)}
+.sk-track{height:4px;background:var(--color-background-secondary);border-radius:2px;overflow:hidden}
+.sk-bar{height:100%;border-radius:2px;transition:width 1.2s ease}
+.cg-sec{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.1rem;background:var(--color-background-primary)}
+.cgrid{display:grid;grid-template-columns:repeat(13,1fr);gap:3px}
+.cd{aspect-ratio:1;border-radius:2px;background:var(--color-background-secondary)}
+.stk{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.1rem;background:var(--color-background-primary);margin-bottom:1rem}
+.sg{margin-bottom:.75rem}
+.sg:last-child{margin-bottom:0}
+.sgl{font-size:10px;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:5px}
+.pills{display:flex;flex-wrap:wrap;gap:4px}
+.tech{font-size:11px;padding:2px 8px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);background:var(--color-background-secondary)}
+.tech.h{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
+.sdiv{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:.65rem;padding-bottom:.45rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.pg2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;margin-bottom:1rem}
+.proj{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);background:var(--color-background-primary);overflow:hidden}
+.ph{padding:.85rem 1rem .7rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.ptr{display:flex;align-items:center;gap:7px;margin-bottom:3px}
+.pdot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.pname{font-size:13.5px;font-weight:500}
+.psub{font-size:10px;color:var(--color-text-tertiary);margin-bottom:.35rem}
+.pdesc{font-size:11.5px;color:var(--color-text-secondary);line-height:1.5}
+.pb{padding:.75rem 1rem}
+.fi{display:flex;gap:6px;align-items:flex-start;margin-bottom:4px;font-size:11px;color:var(--color-text-secondary);line-height:1.45}
+.fi:last-of-type{margin-bottom:.6rem}
+.fd{width:4px;height:4px;border-radius:50%;background:#AFA9EC;flex-shrink:0;margin-top:4px}
+.ptags{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:.6rem}
+.ptag{font-size:10px;padding:2px 6px;border-radius:999px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary)}
+.plinks{display:flex;gap:5px;flex-wrap:wrap}
+.plink{font-size:10px;padding:3px 8px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);text-decoration:none;background:var(--color-background-secondary)}
+.plink.live{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
+.footer{text-align:center;padding-top:.85rem;font-size:11px;color:var(--color-text-tertiary);border-top:0.5px solid var(--color-border-tertiary);margin-top:.25rem}
+@media(max-width:560px){
+  .grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .g2,.pg2{grid-template-columns:1fr}
+}
+</style>
+<div class="wrap">
+<div class="hero f1">
+  <div class="hero-bar"></div>
+  <div class="av">MZ</div>
+  <div class="name">Mehedi Zaman</div>
+  <div class="role">Full Stack Web Developer &nbsp;·&nbsp; MERN &amp; Next.js Expert</div>
+  <div class="loc"><span class="dot"></span><span>Chittagong, Bangladesh &nbsp;·&nbsp; Software Developer at Nexbell.Inc</span></div>
+  <div class="badges">
+    <span class="badge bp">React &amp; Next.js 16</span>
+    <span class="badge bt">Node.js &amp; Express</span>
+    <span class="badge ba">TypeScript</span>
+    <span class="badge bc">PostgreSQL &amp; Prisma</span>
+    <span class="badge bb">MongoDB</span>
+  </div>
+  <div class="socials">
+    <a class="sb" href="https://www.linkedin.com/in/mehediz07">LinkedIn</a>
+    <a class="sb" href="https://twitter.com/MehediZ07">Twitter / X</a>
+    <a class="sb" href="https://discord.com/users/MehediZ07">Discord</a>
+    <a class="sb" href="https://www.youtube.com/@MehediZ07">YouTube</a>
+  </div>
+</div>
+
+<div class="grid4 f2">
+  <div class="sbox"><div class="snum" style="color:#534AB7">10+</div><div class="slbl">Projects shipped</div></div>
+  <div class="sbox"><div class="snum" style="color:#1D9E75">50+</div><div class="slbl">Repos on GitHub</div></div>
+  <div class="sbox"><div class="snum" style="color:#EF9F27">20+</div><div class="slbl">Technologies used</div></div>
+  <div class="sbox"><div class="snum" style="color:#D85A30">12+</div><div class="slbl">Focus hours / day</div></div>
+</div>
+
+<div class="banner ban-p f2">
+  <div class="bi bi-p">&#9670;</div>
+  <div><strong>Currently shipping:</strong> Production-grade full-stack apps with Next.js 16, TypeScript, Tailwind CSS v4, Prisma &amp; PostgreSQL — exploring system design, scalable architecture, and open-source contributions in 2026.</div>
+</div>
+
+<div class="g2 f3">
+  <div class="card">
+    <div class="clabel">Focus areas</div>
+    <div class="di"><div class="diDot"></div><div class="dit"><strong>Role-based dashboards</strong> &amp; admin panels with complex permission systems</div></div>
+    <div class="di"><div class="diDot"></div><div class="dit"><strong>Real-time systems</strong> — notifications, chat, live updates via Socket.io</div></div>
+    <div class="di"><div class="diDot"></div><div class="dit"><strong>Payment &amp; settlement</strong> — Stripe, SSLCommerz, COD workflows</div></div>
+    <div class="di"><div class="diDot"></div><div class="dit"><strong>Scalable REST API design</strong> — modular, type-safe, production-ready</div></div>
+    <div class="di"><div class="diDot"></div><div class="dit">Clean, <strong>maintainable and testable</strong> production code</div></div>
+  </div>
+  <div class="card">
+    <div class="clabel">At a glance</div>
+    <div class="sr"><span class="sl">Position</span><span class="pill pg">Dev at tech company</span></div>
+    <div class="sr"><span class="sl">GitHub streak</span><span class="pill pt">Active</span></div>
+    <div class="sr"><span class="sl">Primary stack</span><span class="sv">MERN + Next.js</span></div>
+    <div class="sr"><span class="sl">Work style</span><span class="sv">12–14 hr deep focus</span></div>
+    <div class="sr"><span class="sl">2026 goal</span><span class="pill pp">Ship open-source SaaS</span></div>
+    <div class="sr"><span class="sl">Dream goal</span><span class="pill pc">Lead Architect by 2028</span></div>
+  </div>
+</div>
+
+<div class="g2 f4">
+  <div class="sk-sec">
+    <div class="clabel">Skill levels</div>
+    <div class="skr"><div class="skh"><span class="skn">Next.js / React</span><span class="skp">95%</span></div><div class="sk-track"><div class="sk-bar" id="b1" style="background:#534AB7;width:0"></div></div></div>
+    <div class="skr"><div class="skh"><span class="skn">Node.js / Express</span><span class="skp">92%</span></div><div class="sk-track"><div class="sk-bar" id="b2" style="background:#534AB7;width:0"></div></div></div>
+    <div class="skr"><div class="skh"><span class="skn">TypeScript</span><span class="skp">88%</span></div><div class="sk-track"><div class="sk-bar" id="b3" style="background:#1D9E75;width:0"></div></div></div>
+    <div class="skr"><div class="skh"><span class="skn">PostgreSQL / Prisma</span><span class="skp">85%</span></div><div class="sk-track"><div class="sk-bar" id="b4" style="background:#1D9E75;width:0"></div></div></div>
+    <div class="skr"><div class="skh"><span class="skn">MongoDB</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-bar" id="b5" style="background:#EF9F27;width:0"></div></div></div>
+    <div class="skr"><div class="skh"><span class="skn">System design</span><span class="skp">75%</span></div><div class="sk-track"><div class="sk-bar" id="b6" style="background:#EF9F27;width:0"></div></div></div>
+  </div>
+  <div class="cg-sec">
+    <div class="clabel">Contribution activity — 2026</div>
+    <div class="cgrid" id="cgrid"></div>
+    <div style="display:flex;gap:7px;margin-top:9px;align-items:center">
+      <span style="font-size:10px;color:var(--color-text-tertiary)">Less</span>
+      <div style="width:9px;height:9px;border-radius:2px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary)"></div>
+      <div style="width:9px;height:9px;border-radius:2px;background:#CECBF6"></div>
+      <div style="width:9px;height:9px;border-radius:2px;background:#7F77DD"></div>
+      <div style="width:9px;height:9px;border-radius:2px;background:#534AB7"></div>
+      <span style="font-size:10px;color:var(--color-text-tertiary)">More</span>
+    </div>
+  </div>
+</div>
+
+<div class="stk f5">
+  <div class="clabel">Tech stack</div>
+  <div class="sg"><div class="sgl">Frontend</div><div class="pills"><span class="tech h">HTML5</span><span class="tech h">CSS3</span><span class="tech h">JavaScript</span><span class="tech h">TypeScript</span><span class="tech h">React 19</span><span class="tech h">Next.js 16</span><span class="tech h">Tailwind v4</span><span class="tech h">shadcn/ui</span></div></div>
+  <div class="sg"><div class="sgl">Backend &amp; Database</div><div class="pills"><span class="tech">Node.js</span><span class="tech">Express 5</span><span class="tech">MongoDB</span><span class="tech">PostgreSQL</span><span class="tech">Prisma ORM</span><span class="tech">Firebase</span><span class="tech">REST API</span><span class="tech">JWT Auth</span></div></div>
+  <div class="sg"><div class="sgl">Libraries &amp; Tools</div><div class="pills"><span class="tech">TanStack Query</span><span class="tech">TanStack Form</span><span class="tech">TanStack Table</span><span class="tech">Socket.io</span><span class="tech">Zod</span><span class="tech">Axios</span><span class="tech">Recharts</span><span class="tech">Stripe</span><span class="tech">Cloudinary</span></div></div>
+  <div class="sg"><div class="sgl">Workflow</div><div class="pills"><span class="tech">Git &amp; GitHub</span><span class="tech">Vercel</span><span class="tech">Postman</span><span class="tech">Prisma Studio</span><span class="tech">ESLint</span><span class="tech">VS Code</span><span class="tech">Bun</span></div></div>
+</div>
+
+<div class="sdiv f5">Featured projects</div>
+<div class="pg2 f5">
+  <div class="proj">
+    <div class="ph">
+      <div class="ptr"><div class="pdot" style="background:#534AB7"></div><div><div class="pname">SwiftShip — Backend</div><div class="psub">Courier Management System API</div></div></div>
+      <div class="pdesc">Production-ready courier &amp; delivery management REST API — shipments, couriers, merchants, payments, dynamic pricing, and real-time tracking at scale.</div>
+    </div>
+    <div class="pb">
+      <div class="fi"><div class="fd"></div>JWT auth with 5 role-based access levels (Super Admin → User)</div>
+      <div class="fi"><div class="fd"></div>Dynamic pricing engine — region, weight &amp; express surcharge</div>
+      <div class="fi"><div class="fd"></div>Hub-based multi-leg delivery with automatic route planning</div>
+      <div class="fi"><div class="fd"></div>Stripe &amp; SSLCommerz integration + COD courier settlement</div>
+      <div class="fi"><div class="fd"></div>Real-time notifications &amp; full shipment event audit trail</div>
+      <div class="ptags"><span class="ptag">Node.js</span><span class="ptag">Express 5</span><span class="ptag">TypeScript</span><span class="ptag">Prisma</span><span class="ptag">PostgreSQL</span><span class="ptag">Stripe</span><span class="ptag">Zod</span></div>
+      <div class="plinks"><a class="plink live" href="https://swiftship-backend.vercel.app">Live API</a><a class="plink" href="https://swiftship-frontendv1.vercel.app">Frontend</a><a class="plink" href="https://drive.google.com/file/d/1tifUZPwJU50tc23QoKL6e_zqzNV1w-aR/view">Video demo</a></div>
+    </div>
+  </div>
+  <div class="proj">
+    <div class="ph">
+      <div class="ptr"><div class="pdot" style="background:#1D9E75"></div><div><div class="pname">SwiftShip — Frontend</div><div class="psub">Full-featured Multi-role Dashboard</div></div></div>
+      <div class="pdesc">Multi-role dashboard — Next.js 16 App Router, React 19, TanStack Query, Tailwind CSS v4, full dark mode. Built for scale with server-managed state.</div>
+    </div>
+    <div class="pb">
+      <div class="fi"><div class="fd"></div>4 role-specific dashboards — Admin, Courier, Merchant, User</div>
+      <div class="fi"><div class="fd"></div>Live price calculator — auto-fetches from backend as you type</div>
+      <div class="fi"><div class="fd"></div>Real-time notification dropdown, unread badge, 30s auto-refresh</div>
+      <div class="fi"><div class="fd"></div>Server-managed tables — search, filter, sort, paginate via URL</div>
+      <div class="fi"><div class="fd"></div>Admin analytics charts (bar &amp; pie) via Recharts · Dark mode</div>
+      <div class="ptags"><span class="ptag">Next.js 16</span><span class="ptag">React 19</span><span class="ptag">TypeScript</span><span class="ptag">Tailwind v4</span><span class="ptag">shadcn/ui</span><span class="ptag">TanStack Query</span></div>
+      <div class="plinks"><a class="plink live" href="https://swiftship-frontendv1.vercel.app">Live App</a><a class="plink" href="https://swiftship-backend.vercel.app">Backend API</a><a class="plink" href="https://drive.google.com/file/d/1tifUZPwJU50tc23QoKL6e_zqzNV1w-aR/view">Video demo</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="banner ban-t f6">
+  <div class="bi bi-t">&#8593;</div>
+  <div><strong>2026 ambitions:</strong> Contribute to major open-source projects &nbsp;·&nbsp; Master system design &amp; distributed systems &nbsp;·&nbsp; Launch a developer-focused SaaS product &nbsp;·&nbsp; Grow toward Lead / Architect role by 2028</div>
+</div>
+
+<div class="footer f6">github.com/MehediZ07 &nbsp;·&nbsp; Built with passion from Chittagong, BD</div>
+</div>
+<script>
+(function(){
+  var bars=[['b1','95%'],['b2','92%'],['b3','88%'],['b4','85%'],['b5','90%'],['b6','75%']];
+  bars.forEach(function(b){
+    var el=document.getElementById(b[0]);
+    if(el) setTimeout(function(){el.style.width=b[1]},80);
+  });
+  var levels=[0,1,2,3,2,1,0,1,3,2,1,2,3,1,0,2,3,1,0,2,3,1,2,0,1,3,2,1,3,0,2,1,0,3,2,1,0,2,3,1,2,0,3,1,2,3,0,1,2,3,1,0,2,3,1,0,2,1,3,0,2,1,0,3,2,1,2,3,0,1,2,0,3,1,2,3,1,0,2,1,3,2,0,1,2,3,1,0,2,3];
+  var colors=['var(--color-background-secondary)','#CECBF6','#7F77DD','#534AB7'];
+  var grid=document.getElementById('cgrid');
+  if(grid){levels.forEach(function(l){var d=document.createElement('div');d.className='cd';d.style.background=colors[l];grid.appendChild(d);});}
+})();
+</script>
+
+</body>
+</html>
