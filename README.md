@@ -1,7 +1,4 @@
-
-
-🔗 **[View my full profile →](https://mehediz07.github.io/MehediZ07/)**
-
+[![](./preview.png)](https://mehediz07.github.io/MehediZ07/)
 
 <h1 align="center">Hi 👋, I'm Mehedi Zaman</h1>
 <h3 align="center">Full Stack Web Developer · MERN & Next.js Expert · Software Developer at Nexbell.Inc</h3>
